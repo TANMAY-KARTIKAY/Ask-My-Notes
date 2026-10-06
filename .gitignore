@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit & Local Secrets
+.streamlit/secrets.toml
+.env
+
+# Vector index persistence & temp files
+*.bin
+*.log
+.cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
